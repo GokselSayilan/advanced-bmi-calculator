@@ -1,0 +1,47 @@
+.bmiRadioContainer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.radioIdle,.radioHover,.radioActive {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.radioIdle {
+    border: 1px solid #D8E2E7;
+    position: relative;
+
+}
+
+.radioHover {
+    border: 1px solid #345FF6;
+    position: relative;
+
+}
+
+.radioActive {
+    background-color: #345FF626;
+    position: relative;
+}
+
+.radioFill {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #345FF6;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.radioText {
+    text-transform: capitalize;
+}

@@ -1,0 +1,165 @@
+/* reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    --fontPrimary: "Inter", serif;
+    --textTitleDark: #253347;
+    --textTitleLight: #FFF;
+    --textBodyDark: #5E6E85;
+    --textBodyLight: #FFF;
+    --bgLight: #FFF;
+}
+
+/* Typography */
+
+.headingXL,
+.headingL,
+.headingM,
+.headingS,
+.bodyM,
+.bodyS {
+    font-family: var(--fontPrimary);
+}
+
+.headingXL,
+.headingL,
+.headingM,
+.headingS {
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.bodyM,
+.bodyS {
+    line-height: 150%;
+}
+
+
+
+.textBold {
+    font-weight: 700;
+}
+
+.textRegular {
+    font-weight: 400;
+}
+
+@media (1000px <= width ) {
+    .headingXL {
+        font-size: 64px;
+       letter-spacing: -3px;
+    }
+    
+    .headingL {
+        font-size: 48px;
+        letter-spacing: -2px;
+    }
+    
+    .headingM {
+        letter-spacing: -5%;
+        font-size: 24px;
+        letter-spacing: -1px;
+    }
+    
+    .headingS {
+        font-size: 20px;
+    
+    }
+
+    .bodyM {
+        font-size: 16px;
+    }
+    
+    .bodyS {
+        font-size: 14px;
+    }
+}
+
+@media (500px < width < 1000px ) {
+    .headingXL {
+        font-size: 48px;
+       letter-spacing: -3px;
+    }
+    
+    .headingL {
+        font-size: 32px;
+        letter-spacing: -2px;
+    }
+    
+    .headingM {
+        letter-spacing: -5%;
+        font-size: 24px;
+        letter-spacing: -1px;
+    }
+    
+    .headingS {
+        font-size: 20px;
+    
+    }
+
+    .bodyM {
+        font-size: 16px;
+    }
+    
+    .bodyS {
+        font-size: 14px;
+    }
+}
+
+@media (width <= 500px) {
+    .headingXL {
+        font-size: 48px;
+       letter-spacing: -3px;
+    }
+    
+    .headingL {
+        font-size: 32px;
+        letter-spacing: -2px;
+    }
+    
+    .headingM {
+        letter-spacing: -5%;
+        font-size: 24px;
+        letter-spacing: -1px;
+    }
+    
+    .headingS {
+        font-size: 20px;
+    
+    }
+
+    .bodyM {
+        font-size: 16px;
+    }
+    
+    .bodyS {
+        font-size: 14px;
+    }
+}
+
+
+/* colors */
+
+.textTitleLight {
+    color: var(--textTitleLight);
+}
+
+.textTitleDark {
+    color: var(--textTitleDark);
+}
+
+.textBodyLight {
+    color: var(--textBodyLight);
+}
+
+.textBodyDark {
+    color: var(--textBodyDark);
+} 
+
+.bgLight {
+    background-color: var(--bgLight);
+}

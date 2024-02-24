@@ -1,0 +1,67 @@
+@media (500px < width ) {
+    .bmiInputContainer {
+        width: 240px;
+        height: 70px;
+        padding: 20px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #D8E2E7;
+        border-radius: 12px;
+    }
+    
+    .containerFocus {
+        border-color: #345FF6;
+    }
+    
+    .bmiInput {
+        width: 100px;
+        border: none;
+        outline: none;
+    }
+    
+    
+    .bmiInputUnit {
+        color: #345FF6;
+    }
+    
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+}
+
+@media (width <= 500px) {
+    .bmiInputContainer {
+        width: 100%;
+        height: 70px;
+        padding: 20px 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #D8E2E7;
+        border-radius: 12px;
+    }
+    
+    .containerFocus {
+        border-color: #345FF6;
+    }
+    
+    .bmiInput {
+        width: 70%;
+        border: none;
+        outline: none;
+    }
+    
+    
+    .bmiInputUnit {
+        color: #345FF6;
+    }
+    
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+}
